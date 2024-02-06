@@ -1,0 +1,77 @@
+.cal_main {
+    background-color : black;
+    width : 250px;
+    height : 440px;
+    align-items: center;
+}
+.showbox {
+    background-color : black;
+    width : 240px;
+    height : 115px;
+    padding-top: 20px;
+    color : white;
+    font-size : 50px;
+    text-align : right;
+    position: relative;
+} 
+.show_num {
+    position : absolute;
+    width : 230px;
+    bottom : 0;
+    right : 0;
+    margin-right: 15px;
+}
+
+.cal_btn {
+    padding-top: 10px;
+    margin-left: 13px;
+    width : 230px;
+    height : 280px;
+} 
+.btn_x {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    width : 50px;
+    height : 50px;
+    margin : 3px;
+    outline: none;
+    font-size: 20px; 
+    background-color : gray;
+    font-weight: bold;
+}
+.btn_y{
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px !important;
+    width : 50px;
+    height : 50px;
+    margin : 3px;
+    outline: none;
+    font-size: 25px; 
+    background-color : orange;
+    color : white;
+}
+.btn_other {
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px !important;
+    width : 50px;
+    height : 50px;
+    margin : 3px;
+    outline: none;
+    font-size: 25px; 
+    background-color : rgb(74, 72, 72);
+    color : white;
+}
+.btn_other2 {
+    display: inline-block;
+    border-radius: 50px !important;
+    width : 105px;
+    height : 50px;
+    margin : 3px;
+    outline: rgb(74, 72, 72);
+    font-size: 25px; 
+    background-color : rgb(74, 72, 72);
+    color : white;
+}
