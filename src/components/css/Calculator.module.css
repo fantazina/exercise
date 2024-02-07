@@ -1,3 +1,9 @@
+.cal_container {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .cal_main {
     background-color : black;
     width : 250px;
